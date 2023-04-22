@@ -45,6 +45,7 @@ main .home div:last-child {
 
 main .home div:last-child p {
   margin: 20px;
+  opacity: .6;
 }
 
 @keyframes digitizer {
@@ -55,6 +56,73 @@ main .home div:last-child p {
   100% {
     opacity: 0;
   }
+}
+
+main .home .comments {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 24px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+main .home .comments .comment {
+  padding: 20px;
+  border-radius: 1.2em;
+  background: #EFEFEF;
+  width: 260px;
+  margin: auto;
+}
+
+main .home .comments .comment p {
+  text-align: center;
+}
+
+main .home .comments .comment p span {
+  opacity: 1;
+  font-size: 21px;
+}
+
+main .home .comments .comment .developer_contention {
+   display: flex;
+   flex-direction: row;
+}
+
+main .home .comments .comment .developer_contention .image {
+   width: 20%;
+   height: calc(100% - 40px);
+   margin-bottom: -100px;
+   margin-right: 20px;
+}
+
+main .home .comments .comment .developer_contention div {
+   width: 100%;
+   padding: 0;
+}
+
+main .home .comments .comment .developer_contention .developer_information {
+   margin-top: -3px;
+   padding: 0;
+}
+
+main .home .comments .comment .developer_contention .developer_information p:first-child {
+   font-size: 14px;
+   font-weight: 800;
+   opacity: 1;
+}
+
+main .home .comments .comment .developer_contention .developer_information p {
+   font-size: 12px;
+   text-align: left;
+   margin: 0;
+   margin-bottom: 5px;
+}
+
+main .home .comments .comment .developer_contention .image  img {
+  width: 40px;
+  height: 40px;
+  border-radius: 8em;
 }
 
 main .home .containment_contact_networks {
