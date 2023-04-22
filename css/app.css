@@ -92,7 +92,7 @@ main .retractable_bottom_menu {
   position: fixed;
   top: -100%;
   width: 280px;
-  background: rgb(238,238,238);
+  background: #FFFFFF;
   padding: 40px;
   padding-top: 52;
   display: flex;
