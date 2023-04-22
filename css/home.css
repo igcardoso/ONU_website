@@ -65,13 +65,13 @@ main .home .comments {
   width: 100%;
   text-align: center;
   margin-bottom: 80px;
+  padding: 20px;
 }
 
 main .home .comments .comment {
   padding: 20px;
   border-radius: 1.2em;
   background: #EFEFEF;
-  width: 260px;
   margin: auto;
 }
 
