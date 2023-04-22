@@ -10,6 +10,7 @@ const assets = [
   "/media/banner_2.png",
   "/media/banner_3.png",
   "/media/banner_4.png",
+  "/media/banner_5.png",
   "/media/img_about_01.jpg",
   "/media/logo.jpg"
 ];
