@@ -1,6 +1,6 @@
 const staticOnuSite = "onu-site-v1";
 const assets = [
-  "/",
+  /*"/",
   "/index.html",
   "/css/app.css",
   "/css/home.css",
@@ -11,7 +11,7 @@ const assets = [
   "/media/banner_3.png",
   "/media/banner_4.png",
   "/media/img_about_01.jpg",
-  "/media/logo.jpg"
+  "/media/logo.jpg"*/
 ];
 
 self.addEventListener("install", installEvent => {
