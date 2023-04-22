@@ -29,7 +29,6 @@ main .about_project .gradient {
 
 main .about_project .more_about_project {
   width: calc(100% - 40px);
-  height: 300px;
   padding: 20px;
   background: rgba(255,255,255,0.094);
   webkit-backdrop-filter: blur(14px);
