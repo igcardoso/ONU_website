@@ -26,11 +26,18 @@
     }
 
     main .project .top h1 {
-      max-width: 260px;
+      max-width: 270px;
       font-weight: 800;
+      font-size: 30px;
       background: -webkit-linear-gradient(20deg, #9e0000, #00009e);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+    }
+
+    main .project .list_functions {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      grid-gap: 24px;
     }
 
     main .project .list_functions .function {
