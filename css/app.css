@@ -128,7 +128,7 @@ body {
   bottom: 0;
   width: 60px;
   height: 3px;
-  background: #000cfa;
+  background: #401fffc4;
   transition: var(--transitions)ease;
 }
 
@@ -142,11 +142,11 @@ body {
 }
 
 .controller_2 label {
-  background: #002dfa;
+  background: #401fffc4;
 }
 
 .controller_2 svg {
-  stroke: #002dfa;
+  stroke: #401fffc4;
 }
 
 .next {
