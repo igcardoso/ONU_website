@@ -21,13 +21,12 @@ svg {
 }
 
 .back_to_top {
-  box-shadow: 2px 2px 10px #0000000;
   position: fixed;
   bottom: 100px;
   right: 11%;
   width: 40px;
   height: 40px;
-  background: #ffffff;
+  background: #401fff;
   padding: 20px;
   border-radius: 8em;
 }
