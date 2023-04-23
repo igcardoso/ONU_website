@@ -23,17 +23,18 @@ svg {
 .back_to_top {
   position: fixed;
   bottom: 100px;
-  right: -100%;
+  right: 11%;
   width: 40px;
   height: 40px;
   background: #401fff;
   padding: 10px;
   border-radius: 8em;
   z-index: 1000;
+  display: none;
 }
 
 .back_to_top.active {
-  right: 11%;
+  display: block;
 }
 
 .back_to_top svg {
