@@ -38,7 +38,7 @@ body {
 }
 
 .navbar .background.sticky ~ div p {
-  background: linear-gradient(20deg, #00faf7, #1500fa);
+  background: linear-gradient(20deg, #401fffc4, #1500fa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
