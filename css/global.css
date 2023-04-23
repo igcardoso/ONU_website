@@ -12,6 +12,10 @@
   --transitions: .6s;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 svg {
   stroke: #000000;
 }
