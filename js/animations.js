@@ -21,9 +21,9 @@ carousel_orward_button.addEventListener('click', ()=> {
   setTimeout(function() {
     carousel_orward_button.classList.remove('active');
     carousel_element.style.marginLeft = "-100%";
-    carousel_element.style.opacity = "0";
+    // carousel_element.style.opacity = "0";
     carousel_elementH2.style.marginRight = "0";
-    carousel_elementH2.style.opacity = "1";
+    // carousel_elementH2.style.opacity = "1";
     carousel_orward_button.style.display = "none";
     back_carousel_button.style.display = "flex";
   }, 890);
@@ -34,9 +34,9 @@ back_carousel_button.addEventListener('click', ()=> {
   setTimeout(function() {
     back_carousel_button.classList.remove('active');
     carousel_element.style.marginLeft = "0";
-    carousel_element.style.opacity = "1";
+    // carousel_element.style.opacity = "1";
     carousel_elementH2.style.marginRight = "-100%";
-    carousel_elementH2.style.opacity = "0";
+    // carousel_elementH2.style.opacity = "0";
     carousel_orward_button.style.display = "flex";
     back_carousel_button.style.display = "none";
   }, 890);
