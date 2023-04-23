@@ -32,6 +32,6 @@ svg {
 }
 
 .back_to_top svg {
-  margin-top: -5px;
+  margin-top: 0;
   margin-left: 10px;
 }
