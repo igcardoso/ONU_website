@@ -29,6 +29,7 @@ svg {
   background: #401fff;
   padding: 10px;
   border-radius: 8em;
+  z-index: 1000;
 }
 
 .back_to_top svg {
