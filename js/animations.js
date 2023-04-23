@@ -2,13 +2,14 @@ const nav = document.querySelector(".navbar .background");
 const navbar = document.querySelector(".navbar");
 var session_title_1 = document.querySelector('#session_title_1');
 var controller = document.querySelector('.controller');
+var back_to_top = document.querySelector('.back_to_top');
 
 window.addEventListener("scroll", ()=> {
   nav.classList.toggle ("sticky", window.scrollY > 0);
   navbar.classList.toggle ("sticky", window.scrollY > 0);
   session_title_1.classList.toggle("deactivated", window.scrollY > 600);
   controller.classList.toggle("deactivated", window.scrollY > 600);
-  controller.classList.toggle("deactivated", window.scrollY > 900);
+  baback_to_top.classList.toggle("deactivated", window.scrollY > 900);
 });
 
 var carousel_orward_button = document.querySelector('.introduction .merry-go-round .next');
