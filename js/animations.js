@@ -2,7 +2,7 @@ const nav = document.querySelector(".navbar .background");
 const navbar = document.querySelector(".navbar");
 var session_title_1 = document.querySelector('#session_title_1');
 var controller = document.querySelector('.controller');
-var back_to_top = document.querySelector('#back_to_top');
+var back_to_top = document.querySelector('.back_to_top');
 
 window.addEventListener("scroll", ()=> {
   nav.classList.toggle ("sticky", window.scrollY > 0);
