@@ -63,7 +63,7 @@ var project_page = document.querySelectorAll('.project_page');
 
 project_page.forEach((project_page) =>
   project_page.addEventListener('click', (event) => {
-    event.preventDefault();
+    
     window.location.href = "project_page.html"
   })
 )
