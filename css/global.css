@@ -30,11 +30,13 @@ svg {
   padding: 10px;
   border-radius: 8em;
   z-index: 1000;
-  display: block ;
+  display: block;
+  opacity: 1;
 }
 
 .back_to_top.active {
   display: block;
+  opacity: 0;
 }
 
 .back_to_top svg {
