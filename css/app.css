@@ -123,6 +123,7 @@ body {
 }
 
 .controller_2 .marker {
+  border-radius: 8em;
   position: absolute;
   left: 0;
   bottom: 0;
