@@ -38,7 +38,7 @@ body {
 }
 
 .navbar .background.sticky ~ div p {
-  background: linear-gradient(20deg, #401fff, #1500fa);
+  background: linear-gradient(20deg, #401fffc4, #008bfa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -427,7 +427,7 @@ body {
 .contact-content h5 {
   font-size: 1.1rem;
   margin-bottom: 20px;
-  background: linear-gradient(20deg, #401fffc4, #1500fa);
+  background: linear-gradient(20deg, #401fffc4, #008bfa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
