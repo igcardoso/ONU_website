@@ -9,7 +9,7 @@ window.addEventListener("scroll", ()=> {
   navbar.classList.toggle ("sticky", window.scrollY > 0);
   session_title_1.classList.toggle("deactivated", window.scrollY > 600);
   controller.classList.toggle("deactivated", window.scrollY > 600);
-  baback_to_top.classList.toggle("active", window.scrollY > 700);
+  baback_to_top.classList.toggle("active", window.scrollY > 600);
 });
 
 var carousel_orward_button = document.querySelector('.introduction .merry-go-round .next');
