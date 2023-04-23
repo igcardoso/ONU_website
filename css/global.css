@@ -27,11 +27,11 @@ svg {
   width: 40px;
   height: 40px;
   background: #401fff;
-  padding: 20px;
+  padding: 10px;
   border-radius: 8em;
 }
 
 .back_to_top svg {
   margin-top: 5px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
