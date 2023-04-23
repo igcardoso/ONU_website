@@ -59,7 +59,8 @@ if (hr >= 0 && hr < 12) {
 }*/
 
 
-var project_page = document.querySelector('.project_page')
+var project_page = document.querySelector('.project_page');
+
 
 var menu_button = document.querySelector('.navbar .menu_button .menu');
 var side_menu = document.querySelector('.side_menu');
