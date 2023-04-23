@@ -61,6 +61,11 @@ if (hr >= 0 && hr < 12) {
 
 var project_page = document.querySelectorAll('.project_page');
 
+project_page.forEach((project_page) =>
+  project_page.addEventListener('click', (event) => {
+    window.location.href = "project_page.html"
+  })
+)
 
 var menu_button = document.querySelector('.navbar .menu_button .menu');
 var side_menu = document.querySelector('.side_menu');
