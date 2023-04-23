@@ -20,7 +20,7 @@ svg {
   stroke: #000000;
 }
 
-.back_to_top {
+#back_to_top {
   position: fixed;
   bottom: 100px;
   right: 11%;
