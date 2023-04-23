@@ -30,7 +30,7 @@ svg {
   padding: 10px;
   border-radius: 8em;
   z-index: 1000;
-  display: bloc;
+  display: block ;
 }
 
 .back_to_top.active {
