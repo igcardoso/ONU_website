@@ -8,7 +8,7 @@
 }
 
 :root {
-  --default_padding: 10%;
+  --default_padding: 30px;
   --transitions: .6s;
 }
 
