@@ -26,7 +26,7 @@ body {
   height: 0;
   background: #ffffff;
   z-index: 1;
-  transition: var(--transitions)ease;
+  transition: var(--transitions) ease;
 }
 
 .navbar .background.sticky {
