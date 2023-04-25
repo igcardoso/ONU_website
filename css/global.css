@@ -23,7 +23,7 @@ svg {
 .back_to_top {
   position: fixed;
   bottom: 100px;
-  right: -100%;
+  right: -var(--default_padding);
   width: 40px;
   height: 40px;
   background: #401fff;
@@ -34,7 +34,7 @@ svg {
 }
 
 .back_to_top.active {
-  right: 11%;
+  right: var(--default_padding);
 }
 
 .back_to_top svg {
