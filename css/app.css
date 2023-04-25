@@ -80,7 +80,7 @@ body {
   border-radius: 8em;
   border: 2px solid #ffffff;
   color: #ffffff;
-  margin: 30px;
+  margin: var(--default_padding);
   opacity: 1;
   animation: startup_button var(--transitions)ease;
 }
@@ -116,7 +116,7 @@ body {
   border-radius: 0;
   border-bottom: none;
   color: #000000;
-  margin: 20px 11% 0 11%;
+  margin: var(--default_padding);
   opacity: 1;
   animation: startup_button var(--transitions)ease;
   width: 130px;
