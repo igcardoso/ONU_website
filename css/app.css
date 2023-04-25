@@ -80,7 +80,7 @@ body {
   border-radius: 8em;
   border: 2px solid #ffffff;
   color: #ffffff;
-  margin: 20px 11% 0 11%;
+  margin: 30px;
   opacity: 1;
   animation: startup_button var(--transitions)ease;
 }
