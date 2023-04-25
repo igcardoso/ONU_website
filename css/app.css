@@ -323,7 +323,8 @@ body {
   position: relative;
   text-align: left;
   padding-top: 120px;
-  height: 100vh;
+  padding-bottom: 120px;
+  
 }
 
 .introduction .merry-go-round .highlight_element:after {
