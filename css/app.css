@@ -14,7 +14,7 @@ body {
   left: 0;
   display: flex;
   flex-direction: row;
-  padding: 13px var(--default_padding) 13px;
+  padding: var(--default_padding);
   z-index: 1100;
 }
 
