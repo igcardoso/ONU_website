@@ -322,7 +322,7 @@ body {
   z-index: 5;
   position: relative;
   text-align: left;
-  padding: 120px;
+  padding-top: 120px;
   height: 500px;
 }
 
