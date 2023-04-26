@@ -590,8 +590,6 @@ body {
 }
 
 .get_to_know_us.third_page  .containment_list_benefits .benefits {
-  webkit-backdrop-filter: blur(15px);
-  backdrop-filter: blur(15px);
   border-radius: 1.2em;
   text-align: center;
   position: relative;
@@ -607,8 +605,8 @@ body {
 }
 
 .get_to_know_us.third_page  .containment_list_benefits .benefits .label span {
-  webkit-backdrop-filter: blur(15px);
-  backdrop-filter: blur(15px);
+  webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
   padding: 8px 14px 8px 14px;
   background: #ffffff32;
   color: #ffffff;
