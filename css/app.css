@@ -599,14 +599,17 @@ body {
 }
 
 .get_to_know_us.third_page  .containment_list_benefits .benefits .label {
+  margin-top: -20px;
+  text-align: center;
+  width: 100%;
+}
+
+.get_to_know_us.third_page  .containment_list_benefits .benefits .label span {
   webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
-  position: absolute;
-  top: -10px;
-  left: auto;
-  right: auto;
   padding: 20px;
   background: #ffffff28;
+  border-radius: 1.2em;
 }
 
 .get_to_know_us.third_page  .containment_list_benefits .benefits:after {
