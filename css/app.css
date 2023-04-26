@@ -585,8 +585,11 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(250px, auto));
   gap: 2rem;
   align-items: center;
+  padding: var(--default_padding);
+  padding-bottom: 40px;
 }
 
 .get_to_know_us.third_page  .containment_list_benefits .benefits {
   border: 2px solid #ffffff;
+  border-radius: 1.2em;
 }
