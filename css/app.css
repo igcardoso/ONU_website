@@ -608,6 +608,10 @@ body {
   opacity: .6;
 }
 
-.get_to_know_us.third_page  .containment_list_benefits .benefits .title {
+.get_to_know_us.third_page  .containment_list_benefits .benefits svg {
+  stroke: #ffffff;
+}
+
+.get_to_know_us.third_page  .containment_list_benefits .benefits .text_cintainer .title_benefits {
   color: #ffffff;
 }
