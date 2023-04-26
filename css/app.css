@@ -586,7 +586,7 @@ body {
   gap: 2rem;
   align-items: center;
   padding: var(--default_padding);
-  padding-bottom: 40px;
+  padding-bottom: var(--default_padding);
 }
 
 .get_to_know_us.third_page  .containment_list_benefits .benefits {
@@ -611,6 +611,8 @@ body {
 .get_to_know_us.third_page  .containment_list_benefits .benefits svg {
   width: 75px;
   height: 75px;
+  margin-top: var(--default_padding);
+  margin-bottom: var(--transitions);
   stroke: #ffffff;
 }
 
