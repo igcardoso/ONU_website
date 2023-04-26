@@ -594,7 +594,7 @@ body {
   backdrop-filter: blur(15px);
   border: 1px solid #ffffff51;
   border-radius: 1.2em;
-  text-align: justify;
+  text-align: center;
 }
 
 .get_to_know_us.third_page  .containment_list_benefits .benefits:after {
