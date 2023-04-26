@@ -593,7 +593,7 @@ body {
   webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
   border-radius: 1.2em;
-  text-align: left;
+  text-align: center;
   position: relative;
   background: linear-gradient(-25deg, #ffffff00, #ffffff32, #ffffff00);
 }
@@ -601,8 +601,8 @@ body {
 .get_to_know_us.third_page  .containment_list_benefits .benefits .label {
   position: absolute;
   top: -12px;
-  left: var(--default_padding);
-  text-align: center;
+  left: 0;
+  text-align: left;
   width: 100%;
 }
 
@@ -612,6 +612,7 @@ body {
   padding: 8px 14px 8px 14px;
   background: #ffffff;
   border-radius: 1.2em;
+  margin-left: var(--default_padding);
 }
 
 .get_to_know_us.third_page  .containment_list_benefits .benefits svg {
