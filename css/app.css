@@ -592,10 +592,10 @@ body {
 .get_to_know_us.third_page  .containment_list_benefits .benefits {
   webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
-  border: 1px solid #ffffff51;
   border-radius: 1.2em;
   text-align: center;
   position: relative;
+  background: linear-gradient(-25deg, #ffffff00, #ffffff32, #ffffff00);
 }
 
 .get_to_know_us.third_page  .containment_list_benefits .benefits .label {
@@ -609,20 +609,8 @@ body {
 .get_to_know_us.third_page  .containment_list_benefits .benefits .label span {
   webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
-  padding: 20px;
+  padding: 8px 14px 8px 14px;
   background: #ffffff28;
-  border-radius: 1.2em;
-}
-
-.get_to_know_us.third_page  .containment_list_benefits .benefits:after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(-25deg, #ffffff00, #ffffff32, #ffffff00);
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  opacity: .6;
   border-radius: 1.2em;
 }
 
