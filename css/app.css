@@ -26,7 +26,7 @@ body {
   height: 0;
   background: #ffffff;
   z-index: 1;
-  transition: var(--transitions) ease;
+  transition: var(--transitions)ease;
 }
 
 .navbar .background.sticky {
@@ -284,7 +284,7 @@ body {
   text-align: left;
   padding-top: 160px;
   padding-bottom: 130px;
-  
+
 }
 
 .introduction .merry-go-round .highlight_element:after {
@@ -424,7 +424,7 @@ body {
   background: #ffffff;
   z-index: 1000;
   overflow-y: auto;
-  transition: var(--transitions) ease;
+  transition: var(--transitions)ease;
 }
 
 .side_menu.active {
@@ -578,4 +578,15 @@ body {
 
 .get_to_know_us.third_page .controller_2 svg {
   stroke: #ffffff;
+}
+
+.get_to_know_us.third_page .containment_list_benefits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  gap: 2rem;
+  align-items: center;
+}
+
+.get_to_know_us.third_page  .containment_list_benefits .benefits {
+  border: 2px solid #ffffff;
 }
