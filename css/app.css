@@ -599,7 +599,11 @@ body {
 }
 
 .get_to_know_us.third_page  .containment_list_benefits .benefits {
-  margin-top: -10px;
+  position: absolute;
+  top: -10px;
+  left: auto;
+  right: auto;
+  margin: auto;
   padding: 20px;
 }
 
