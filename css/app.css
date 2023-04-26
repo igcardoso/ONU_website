@@ -454,7 +454,7 @@ body {
 
 .side_menu {
   padding: var(--default_padding);
-  padding-top: 20%;
+  padding-top: calc(var(--default_padding) * 2);
   position: fixed;
   top: 0;
   left: auto;
