@@ -550,6 +550,11 @@ body {
   }
 }*/
 
+
+.get_to_know_us.third_page .button_up .name {
+  color: #ffffff;
+}
+
 .get_to_know_us.third_page {
   margin-top: 100px;
   background: linear-gradient(-25deg, #401fffc4, #008bfa);
@@ -561,8 +566,6 @@ body {
 
 .get_to_know_us.third_page p {
   color: #ffffff;
-}
-
 }
 
 .get_to_know_us.third_page .controller_2 .marker {
