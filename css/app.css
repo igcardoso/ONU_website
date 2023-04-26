@@ -610,7 +610,7 @@ body {
   webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
   padding: 8px 14px 8px 14px;
-  background: #ffffff;
+  background: #ffffff32;
   border-radius: 1.2em;
   margin-left: var(--default_padding);
 }
