@@ -594,6 +594,7 @@ body {
   backdrop-filter: blur(15px);
   border: 1px solid #ffffff51;
   border-radius: 1.2em;
+  text-align: justify;
 }
 
 .get_to_know_us.third_page  .containment_list_benefits .benefits:after {
@@ -605,4 +606,8 @@ body {
   height: 100%;
   z-index: -1;
   opacity: .6;
+}
+
+.get_to_know_us.third_page  .containment_list_benefits .benefits .title {
+  color: #ffffff;
 }
