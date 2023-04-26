@@ -593,15 +593,15 @@ body {
   webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
   border-radius: 1.2em;
-  text-align: center;
+  text-align: left;
   position: relative;
   background: linear-gradient(-25deg, #ffffff00, #ffffff32, #ffffff00);
 }
 
 .get_to_know_us.third_page  .containment_list_benefits .benefits .label {
   position: absolute;
-  top: -13px;
-  left: 0;
+  top: -12px;
+  left: var(--default_padding);
   text-align: center;
   width: 100%;
 }
