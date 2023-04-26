@@ -600,7 +600,7 @@ body {
 
 .get_to_know_us.third_page  .containment_list_benefits .benefits .label {
   position: absolute;
-  top: -20px;
+  top: -13px;
   left: 0;
   text-align: center;
   width: 100%;
@@ -610,7 +610,7 @@ body {
   webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
   padding: 8px 14px 8px 14px;
-  background: #ffffff28;
+  background: #ffffff;
   border-radius: 1.2em;
 }
 
