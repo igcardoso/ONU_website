@@ -552,5 +552,13 @@ body {
 }*/
 
 .get_to_know_us.third_page {
-  background: linear-gradient(20deg, #401fffc4, #008bfa);
+  background: linear-gradient(-25deg, #401fffc4, #008bfa);
+}
+
+.get_to_know_us.third_page .title {
+  color: #ffffff;
+}
+
+.get_to_know_us.third_page p {
+  color: #ffffff;
 }
