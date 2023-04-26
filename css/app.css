@@ -551,6 +551,6 @@ body {
   }
 }*/
 
-.get_to_know_us .third_page {
+.get_to_know_us.third_page {
   background: linear-gradient(20deg, #401fffc4, #008bfa);
 }
