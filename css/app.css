@@ -590,6 +590,8 @@ body {
 }
 
 .get_to_know_us.third_page  .containment_list_benefits .benefits {
-  border: 2px solid #ffffff;
+  webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  border: 1px solid #ffffff51;
   border-radius: 1.2em;
 }
