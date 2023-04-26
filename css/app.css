@@ -459,7 +459,7 @@ body {
   top: 0;
   left: auto;
   right: -100%;
-  width: 100%;
+  width: calc(100% - var(--default_padding) - var(--default_padding));
   height: 100vh;
   background: #ffffff;
   z-index: 1000;
