@@ -595,7 +595,6 @@ body {
   border: 1px solid #ffffff51;
   border-radius: 1.2em;
   text-align: center;
-  overflow: hidden;
   position: relative;
 }
 
@@ -624,6 +623,7 @@ body {
   height: 100%;
   z-index: -1;
   opacity: .6;
+  border-radius: 1.2em;
 }
 
 .get_to_know_us.third_page  .containment_list_benefits .benefits svg {
