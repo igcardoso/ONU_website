@@ -563,7 +563,7 @@ body {
 
 .get_to_know_us.third_page .title_third_page {
   transform: translateX(-100%);
-  transition: var(--transitions) ease;
+  transition: var(--transitions)ease;
 }
 
 .get_to_know_us.third_page .title_third_page.active {
@@ -572,7 +572,7 @@ body {
 
 .get_to_know_us.third_page .subtitle_third_page {
   transform: translateX(100%);
-  transition: var(--transitions) ease;
+  transition: var(--transitions)ease;
 }
 
 .get_to_know_us.third_page .subtitle_third_page.active {
@@ -643,4 +643,17 @@ body {
 
 .get_to_know_us.third_page  .containment_list_benefits .benefits .text_container .title_benefits {
   color: #ffffff;
+}
+
+.get_to_know_us.fourth_page .team_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  gap: 2rem;
+  align-items: center;
+}
+
+.get_to_know_us.fourth_page .team_list .team {
+  border-radius: 1.2em;
+  padding: 20px;
+  background: #efefef;
 }
