@@ -11,7 +11,7 @@ window.addEventListener("scroll", ()=> {
   session_title_1.classList.toggle("deactivated", window.scrollY > 600);
   controller.classList.toggle("deactivated", window.scrollY > 600);
   back_to_top.classList.toggle("active", window.scrollY > 600);
-  title_third_page.classList.toggle("active", window.scrollY > 800);
+  title_third_page.classList.toggle("active", window.scrollY > 900);
 });
 
 var carousel_orward_button = document.querySelector('.introduction .merry-go-round .next');
