@@ -571,7 +571,7 @@ body {
 }
 
 .get_to_know_us.third_page .subtitle_third_page {
-  transform: translateX(200%);
+  transform: translateX(100%);
   transition: var(--transitions) ease;
 }
 
