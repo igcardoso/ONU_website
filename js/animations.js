@@ -74,11 +74,22 @@ project_page.forEach((project_page) =>
   })
 )
 
+/*
+var team_list = document.querySelectorAll('.team_list .team');
+
+team_list.forEach((team_list) =>
+  team_list.addEventListener('click', (event) => {
+    team_list.classList.toggle('active');
+  })
+)*/
+
 var menu_button = document.querySelector('.navbar .menu_button .menu');
 var side_menu = document.querySelector('.side_menu');
 
 menu_button.addEventListener('click', ()=> {
   side_menu.classList.toggle('active');
-  nav.classList.toggle('sticky');
-  navbar.classList.toggle('sticky');
+  if (window.scrollY == 0) {
+    nav.classList.toggle('sticky'); 
+    navbar.classList.toggle('sticky'); 
+  }
 });
