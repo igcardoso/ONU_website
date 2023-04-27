@@ -653,7 +653,8 @@ body {
 }
 
 .get_to_know_us.fourth_page .team_list .team {
+  width: 220px;
   border-radius: 1.2em;
-  padding: 20px;
+  padding: 10px;
   background: #efefef;
 }
