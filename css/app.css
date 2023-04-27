@@ -570,6 +570,15 @@ body {
   transform: translateX(0);
 }
 
+.get_to_know_us.third_page .subtitle_third_page {
+  transform: translateX(100%);
+  transition: var(--transitions) ease;
+}
+
+.get_to_know_us.third_page .subtitle_third_page.active {
+  transform: translateX(0);
+}
+
 .get_to_know_us.third_page .title {
   color: #ffffff;
 }
