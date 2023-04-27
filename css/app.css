@@ -580,6 +580,7 @@ body {
 
 .get_to_know_us.third_page .title {
   color: #ffffff;
+  padding-right: var(--default_padding);
 }
 
 .get_to_know_us.third_page p {
