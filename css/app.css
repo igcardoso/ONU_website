@@ -561,6 +561,15 @@ body {
   background: linear-gradient(-25deg, #401fffc4, #008bfa);
 }
 
+.get_to_know_us.third_page .title_third_page {
+  transform: translateX(-100%);
+  transition: var(--transitions) ease;
+}
+
+.get_to_know_us.third_page .title_third_page {
+  transform: translateX(0);
+}
+
 .get_to_know_us.third_page .title {
   color: #ffffff;
 }
