@@ -663,3 +663,8 @@ body {
   display: flex;
   flex-direction: row;
 }
+
+.get_to_know_us.fourth_page .team_list .team .top_card .image_container {
+  width: 30px;
+  height: 30px;
+}
