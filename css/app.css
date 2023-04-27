@@ -566,7 +566,7 @@ body {
   transition: var(--transitions) ease;
 }
 
-.get_to_know_us.third_page .title_third_page {
+.get_to_know_us.third_page .title_third_page.active {
   transform: translateX(0);
 }
 
