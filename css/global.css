@@ -42,7 +42,7 @@ svg {
   color: #00fa29;
   overflow: hidden;
   transition: var(--transitions)ease;
-  transform: translateX(-120%);
+  transform: translateX(-1000000px);
   padding: var(--default_padding);
   padding-top: 10px;
   padding-bottom: 8px;
