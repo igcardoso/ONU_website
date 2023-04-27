@@ -48,6 +48,14 @@ body {
   stroke: #000000;
 }
 
+.navbar .background.sticky ~ div svg path {
+  stroke: #000000;
+}
+
+.navbar .background.sticky ~ div svg circle {
+  stroke: #000000;
+}
+
 .navbar div {
   width: 100%;
   z-index: 3;
@@ -63,9 +71,46 @@ body {
   text-align: right;
 }
 
-.navbar div:last-child svg {
-  margin-top: -5px;
+.navbar div svg {
+  margin-top: -1px;
   stroke: #ffffff;
+}
+
+.navbar div svg path {
+  stroke: #ffffff;
+}
+
+.navbar div svg circle {
+  stroke: #ffffff;
+}
+
+.navbar .offline {
+  position: relative;
+}
+
+.navbar .offline label {
+  position: absolute;
+  top: auto;
+  bottom: -22px;
+  left: auto;
+  right: auto;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  background: #00000048;
+  color: #ffffff;
+  border-radius: 8em;
+  border-top-left-radius: .1em;
+  font-weight: 500;
+  transition: var(--transitions) ease;
+}
+
+.navbar .offline:hover label {
+  width: 90px;
+  height: 20px;
+  padding: 6px;
 }
 
 .introduction .merry-go-round {
@@ -571,7 +616,7 @@ body {
 }
 
 .get_to_know_us.third_page .subtitle_third_page {
-  transform: translateX(100%);
+  transform: translateX(-100%);
   transition: var(--transitions)ease;
 }
 
@@ -650,26 +695,64 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(250px, auto));
   gap: 2rem;
   align-items: center;
+  margin-bottom: var(--default_padding);
 }
 
 .get_to_know_us.fourth_page .team_list .team {
-  width: 220px;
+  margin-left: var(--default_padding);
+  margin-right: var(--default_padding);
   border-radius: 1.2em;
-  padding: 10px;
-  background: #efefef;
+  padding: var(--default_padding);
+  background: #eeeeee;
+  overflow: hidden;
+  height: auto;
+  transition: var(--transitions) ease;
+}
+
+.get_to_know_us.fourth_page .team_list .team .text {
+  padding: 0;
+  text-align: justify;
+  opacity: .8;
 }
 
 .get_to_know_us.fourth_page .team_list .team .top_card {
+  width: 100%;
   display: flex;
   flex-direction: row;
 }
 
 .get_to_know_us.fourth_page .team_list .team .top_card .information_containment {
+  width: 100%;
+  margin-left: 20px;
   display: flex;
   flex-direction: column;
 }
 
+.get_to_know_us.fourth_page .team_list .team .top_card .icon  {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.get_to_know_us.fourth_page .team_list .team .top_card .icon svg {
+  transform: rotate(-90deg);
+  transition: var(--transitions) ease;
+}
+
+.get_to_know_us.fourth_page .team_list .team .top_card .information_containment  .function {
+  color: #000000;
+  font-weight: 300;
+  opacity: .7; 
+  font-size: 14px;
+}
+
+.get_to_know_us.fourth_page .team_list .team .top_card .information_containment  .name {
+  color: #000000;
+  font-weight: 600;
+}
+
 .get_to_know_us.fourth_page .team_list .team .top_card .image_container img {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 8em;
+  margin-top: -5px;
 }
