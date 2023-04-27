@@ -658,3 +658,8 @@ body {
   padding: 10px;
   background: #efefef;
 }
+
+.get_to_know_us.fourth_page .team_list .team .top_card {
+  display: flex;
+  flex-direction: row;
+}
