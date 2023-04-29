@@ -15,9 +15,9 @@ function animate_elements() {
     let bounding = animated_elements.getBoundingClientRect();
     if (bounding.bottom > windowHeight) {
       animated_elements.classList.add("is-down");
-    } /*else if (bounding.top < 0) {
+    } else if (bounding.top < 0) {
       animated_elements.classList.add("is-up");
-    }*/ else {
+    } else {
       animated_elements.classList.remove("is-up");
       animated_elements.classList.remove("is-down");
     }
