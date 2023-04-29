@@ -406,7 +406,7 @@ body {
   opacity: 0;
 }
 
-.introduction .merry-go-round .highlight_element.h2 {
+.home.introduction .merry-go-round .highlight_element.h2 {
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxaq_0znUiW8In9FM_e0gCb_mCpPMefj22Zg&usqp=CAU');
   background-size: cover;
   background-position: center;
