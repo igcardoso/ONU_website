@@ -11,15 +11,15 @@ const animated_elements = document.querySelectorAll(".animated_elements");
 let windowHeight = window.innerHeight;
 
 function animate_elements() {
-  animated_elements.forEach((animated_elements) => {
-    let bounding = animated_elements.getBoundingClientRect();
+  animated_elements.forEach((animated_element) => {
+    let bounding = animated_element.getBoundingClientRect();
     if (bounding.bottom > windowHeight) {
-      animated_elements.classList.add("is-down");
+      animated_element.classList.add("is-down");
     } else if (bounding.top < 0) {
-      animated_elements.classList.add("is-up");
+      animated_element.classList.add("is-up");
     } else {
-      animated_elements.classList.remove("is-up");
-      animated_elements.classList.remove("is-down");
+      animated_element.classList.remove("is-up");
+      animated_element.classList.remove("is-down");
     }
   });
 }
