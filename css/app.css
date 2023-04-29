@@ -516,7 +516,7 @@ body {
   display: none;
 }
 
-.take_menu {
+.take_menu.active {
   display: block;
 }
 
