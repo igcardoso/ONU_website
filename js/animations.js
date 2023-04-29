@@ -94,9 +94,11 @@ team_list.forEach((team_list) =>
 
 var menu_button = document.querySelector('.navbar .menu_button .menu');
 var side_menu = document.querySelector('.side_menu');
+var take_menu = document.querySelector('.take_menu');
 
 menu_button.addEventListener('click', ()=> {
 side_menu.classList.toggle('active');
+take_menu.classList.toggle('active');
 // if (window.scrollY == 0) {
 //  nav.classList.toggle('sticky'); 
 //  navbar.classList.toggle('sticky'); 
