@@ -111,5 +111,5 @@ take_menu.classList.toggle('active');
 });
 
 window.onscroll = () => {
-  side_menu.classList.remove('open');
+  side_menu.classList.remove('active');
 }; 
