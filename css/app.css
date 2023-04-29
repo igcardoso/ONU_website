@@ -377,7 +377,7 @@ body {
   font-size: 35px;
   opacity: 1;
   transition: var(--transitions)ease;
-  animation: startup_title var(--transitions)ease;
+  animation: startup_title var(--transitions) ease;
 }
 
 @keyframes startup_title {
@@ -592,11 +592,6 @@ body {
   width: 130px;
 }
 
-.controller_2.deactivated {
-  margin-top: 100px;
-  opacity: 0;
-}
-
 .controller_2 label {
   background: #401fffc4;
 }
@@ -620,24 +615,6 @@ body {
 .get_to_know_us.third_page {
   margin-top: 100px;
   background: linear-gradient(-25deg, #401fffc4, #008bfa);
-}
-
-.get_to_know_us.third_page .title_third_page {
-  transform: translateX(-100%);
-  transition: var(--transitions)ease;
-}
-
-.get_to_know_us.third_page .title_third_page.active {
-  transform: translateX(0);
-}
-
-.get_to_know_us.third_page .subtitle_third_page {
-  transform: translateX(-100%);
-  transition: var(--transitions)ease;
-}
-
-.get_to_know_us.third_page .subtitle_third_page.active {
-  transform: translateX(0);
 }
 
 .get_to_know_us.third_page .title {
