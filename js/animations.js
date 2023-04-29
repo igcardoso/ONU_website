@@ -104,3 +104,8 @@ take_menu.classList.toggle('active');
 //  navbar.classList.toggle('sticky'); 
 // }
 });
+
+take_menu.addEventListener('click', ()=> {
+side_menu.classList.toggle('active');
+take_menu.classList.toggle('active');
+});
