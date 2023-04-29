@@ -619,10 +619,12 @@ body {
 
 .get_to_know_us.third_page .title {
   color: #ffffff;
+  transition: var(--transitions) ease;
 }
 
 .get_to_know_us.third_page p {
   color: #ffffff;
+  transition: var(--transitions) ease;
 }
 
 .get_to_know_us.third_page .controller_2 .marker {
