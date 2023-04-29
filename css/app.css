@@ -513,6 +513,11 @@ body {
   height: 100vh;
   z-index: 1100;
   background: red;
+  display: none;
+}
+
+.take_menu {
+  display: block;
 }
 
 
