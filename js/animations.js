@@ -72,7 +72,16 @@ project_page.forEach((project_page) =>
     event.preventDefault();
     window.location.href = "project_page.html";
   })
-)
+);
+
+var about_us_page = document.querySelectorAll('.about_us');
+
+about_us_page.forEach((about_us_page) =>
+  about_us_page.addEventListener('click', (event) => {
+    event.preventDefault();
+    window.location.href = "../pages/about_us.html";
+  })
+);
 
 /*
 var team_list = document.querySelectorAll('.team_list .team');
