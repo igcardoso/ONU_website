@@ -85,6 +85,7 @@ body {
 }
 
 .navbar .offline {
+  text-align: right;
   position: relative;
 }
 
