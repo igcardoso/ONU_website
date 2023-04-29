@@ -362,7 +362,7 @@ body {
 .introduction .merry-go-round .highlight_element.h1 {
   height: 100%;
   width: 100%;
-  background-image: url('../media/img_about_01.jpg');
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxaq_0znUiW8In9FM_e0gCb_mCpPMefj22Zg&usqp=CAU');
   background-size: cover;
   background-position: center;
   overflow-x: hidden;
@@ -407,7 +407,7 @@ body {
 }
 
 .introduction .merry-go-round .highlight_element.h2 {
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxaq_0znUiW8In9FM_e0gCb_mCpPMefj22Zg&usqp=CAU');
+  background-image: url('../media/img_about_01.jpg');
   background-size: cover;
   background-position: center;
   width: 100%;
