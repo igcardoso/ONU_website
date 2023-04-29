@@ -20,6 +20,17 @@ svg {
   stroke: #000000;
 }
 
+
+.is-down {
+  transform: translateX(25%);
+  opacity: 0;
+}
+
+.is-up {
+  transform: translateX(-25%);
+  opacity: 0;
+}
+
 .alerts {
   position: fixed;
   bottom: 0;
