@@ -22,12 +22,12 @@ svg {
 
 
 .is-down {
-  transform: translateX(0);
+  transform: translateX(25%);
   opacity: 0;
 }
 
 .is-up {
-  transform: translateX(-100%);
+  transform: translateX(-25%);
   opacity: 0;
 }
 
