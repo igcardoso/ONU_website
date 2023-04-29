@@ -460,7 +460,7 @@ body {
 
 .side_menu {
   padding: var(--default_padding);
-  padding-top: 130px;
+  padding-top: 30px;
   position: fixed;
   top: 0;
   left: auto;
@@ -468,7 +468,7 @@ body {
   width: calc(100% - var(--default_padding) - var(--default_padding));
   height: 100vh;
   background: #ffffff;
-  z-index: 1000;
+  z-index: 1200;
   overflow-y: auto;
   transition: var(--transitions)ease;
 }
