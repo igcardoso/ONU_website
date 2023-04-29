@@ -28,7 +28,7 @@ svg {
 
 .is-up {
   transform: translateX(0);
-  opacity: 0;
+  opacity: 1;
 }
 
 .alerts {
