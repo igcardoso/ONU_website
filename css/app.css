@@ -9,7 +9,7 @@ body {
 .navbar {
   background: 0;
   width: calc(100% - var(--default_padding) - var(--default_padding));
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   display: flex;
