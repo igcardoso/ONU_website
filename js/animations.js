@@ -7,8 +7,8 @@ var title_third_page = document.querySelector('.title_third_page');
 var subtitle_third_page = document.querySelector('.subtitle_third_page');
 
 window.addEventListener("scroll", ()=> {
-  nav.classList.toggle ("sticky", window.scrollY > 0);
-  navbar.classList.toggle ("sticky", window.scrollY > 0);
+  // nav.classList.toggle ("sticky", window.scrollY > 0);
+  // navbar.classList.toggle ("sticky", window.scrollY > 0);
   session_title_1.classList.toggle("deactivated", window.scrollY > 600);
   controller.classList.toggle("deactivated", window.scrollY > 600);
   back_to_top.classList.toggle("active", window.scrollY > 600);
