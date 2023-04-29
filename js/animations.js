@@ -14,7 +14,6 @@ window.addEventListener("scroll", ()=> {
   back_to_top.classList.toggle("active", window.scrollY > 600);
   title_third_page.classList.toggle("active", window.scrollY > 1000);
   subtitle_third_page.classList.toggle("active", window.scrollY > 1100);
-  side_menu.classList.toggle('active', window.scrollY > 0);
 });
 
 var carousel_orward_button = document.querySelector('.introduction .merry-go-round .next');
@@ -110,3 +109,7 @@ take_menu.addEventListener('click', ()=> {
 side_menu.classList.toggle('active');
 take_menu.classList.toggle('active');
 });
+
+window.onscroll = () => {
+  side_menu.classList.remove('open');
+}; 
