@@ -357,6 +357,11 @@ body {
   z-index: -1;
   opacity: 1;
 }
+
+.introduction .merry-go-round .highlight_element.h2 .video_background {
+  display: block;
+}
+
 }
 
 .introduction .merry-go-round .highlight_element .video_background {
