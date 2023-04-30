@@ -296,7 +296,7 @@ body {
 }
 
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1180px) {
 
   .back:hover label {
     width: 20px;
