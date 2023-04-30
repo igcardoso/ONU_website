@@ -841,6 +841,17 @@ body {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 1180px) {
+  
+.container {
+  position: relative;
+  padding: 20%;
+  width: calc(100% - 40%);
+  margin: 0 auto;
+}
+
+}
+
 .gallery-wrapper {
   overflow-x: hidden;
 }
