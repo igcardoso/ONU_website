@@ -389,17 +389,7 @@ body {
   overflow-x: hidden;
 }
 
-.introduction .merry-go-round .highlight_element.h1 .content .container img  {
-  width: 280px;
-  display: none;
-}
-
 @media screen and (min-width: 1180px) {
-  
-.introduction .merry-go-round .highlight_element.h1 .content .container img  {
-  width: 380px;
-  display: none;
-}
   
 .introduction .merry-go-round .highlight_element.h1 h1 {
   max-width: 55%;
