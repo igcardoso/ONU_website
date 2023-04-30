@@ -389,12 +389,6 @@ body {
   overflow-x: hidden;
 }
 
-.introduction .merry-go-round .highlight_element.h1 .content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-  gap: 2rem;
-}
-
 .introduction .merry-go-round .highlight_element.h1 .content .container img  {
   width: 280px;
   display: none;
