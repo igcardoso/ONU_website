@@ -338,11 +338,25 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg , #008bfa, #401fffc4 100%);
+  background: linear-gradient(180deg , #008bfa, #401fff 100%);
   width: 100%;
   height: 100%;
   z-index: -1;
   opacity: 1;
+}
+
+@media screen and (min-width: 1180px) {
+  
+.introduction .merry-go-round .highlight_element:after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg , rgba(0,139,250,0.112), #401fff 100%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 1;
+}
 }
 
 .introduction .merry-go-round .highlight_element .video_background {
