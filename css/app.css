@@ -380,6 +380,18 @@ body {
   animation: startup_title var(--transitions)ease;
 }
 
+
+@media screen and (min-width: 1180px) {
+  .introduction .merry-go-round .highlight_element h1 {
+    max-width: 55%;
+  }
+
+  .get_to_know_us .title, p {
+    max-width: 55%;
+  }
+
+}
+
 @keyframes startup_title {
   0% {
     opacity: 0;
