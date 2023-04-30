@@ -374,6 +374,19 @@ body {
   gap: 2rem;
 }
 
+.introduction .merry-go-round .highlight_element.h1 .content .container img  {
+  width: 280px;
+  display: none;
+}
+
+@media screen and (min-width: 1180px) {
+  
+.introduction .merry-go-round .highlight_element.h1 .content .container img  {
+  width: 280px;
+  display: block;
+}
+}
+
 .introduction .merry-go-round .highlight_element h1 {
   font-weight: 100;
   color: #ffffff;
