@@ -360,15 +360,18 @@ body {
 
 
 .introduction .merry-go-round .highlight_element.h1 {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-  gap: 2rem;
   height: 100%;
   width: 100%;
   background-image: url('../media/img_about_01.jpg');
   background-size: cover;
   background-position: center;
   overflow-x: hidden;
+}
+
+.introduction .merry-go-round .highlight_element.h1 .content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  gap: 2rem;
 }
 
 .introduction .merry-go-round .highlight_element h1 {
