@@ -360,6 +360,9 @@ body {
 
 
 .introduction .merry-go-round .highlight_element.h1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  gap: 2rem;
   height: 100%;
   width: 100%;
   background-image: url('../media/img_about_01.jpg');
@@ -378,18 +381,6 @@ body {
   font-size: 45px;
   transition: var(--transitions)ease;
   animation: startup_title var(--transitions)ease;
-}
-
-
-@media screen and (min-width: 1180px) {
-  .introduction .merry-go-round .highlight_element h1 {
-    max-width: 55%;
-  }
-
-  .get_to_know_us .title, p {
-    max-width: 55%;
-  }
-
 }
 
 @keyframes startup_title {
