@@ -397,7 +397,11 @@ body {
   
 .introduction .merry-go-round .highlight_element.h1 .content .container img  {
   width: 380px;
-  display: block;
+  display: none;
+}
+  
+.introduction .merry-go-round .highlight_element.h1 h1 {
+  max-width: 55%;
 }
 }
 
