@@ -111,6 +111,7 @@ header .nav-bar {
   border-right: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: var(--box-shadow);
   z-index: 10002;
+  display: none;
   transform: translateX(100%);
 }
 
@@ -489,6 +490,7 @@ header .nav-bar {
     height: 100%;
     min-width: 280px;
     max-width: 280px;
+    display: block;
     visibility: hidden;
     opacity: 0;
     transform: translateX(100%);
