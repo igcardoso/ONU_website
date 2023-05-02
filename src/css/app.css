@@ -224,6 +224,10 @@ header .nav-bar {
   height: 100%;
 }
 
+.slide_contention .controls {
+  
+}
+
 
 .bg-slider-thumbs {
   z-index: 777;
