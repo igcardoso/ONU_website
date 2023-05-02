@@ -414,7 +414,7 @@ header .nav-bar {
   }
 }
 
-/*======= Media queries (max-width: 785px) =======*/
+/*======= Media queries (max-width: 789px) =======*/
 @media screen and (max-width: 785px) {
   header .nav-bar {
     padding: 25px 20px;
