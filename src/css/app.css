@@ -224,8 +224,10 @@ header .nav-bar {
   height: 100%;
 }
 
-.slide_contention .controls {
-  
+.slide_contention .controls { 
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
 }
 
 
