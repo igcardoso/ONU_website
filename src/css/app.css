@@ -234,8 +234,8 @@ header .nav-bar {
 .controller {
   width: 50px;
   border-radius: 8em;
-  border: 2px solid #ffffff;
-  color: #ffffff;
+  border: 2px solid #000000;
+  color: #000000;
   margin: var(--default_padding);
   opacity: 1;
   animation: startup_button var(--transitions)ease;
@@ -259,11 +259,11 @@ header .nav-bar {
 }
 
 .controller label {
-  background: #ffffff;
+  background: #000000;
 }
 
 .controller svg {
-  stroke: #ffffff;
+  stroke: #000000;
 }
 
 .next {
