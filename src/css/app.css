@@ -231,6 +231,9 @@ header .nav-bar {
   z-index: 800;
 }
 
+.slide_contention .controls span { 
+  border: 2px ;
+}
 
 .bg-slider-thumbs {
   z-index: 777;
