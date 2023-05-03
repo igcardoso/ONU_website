@@ -29,8 +29,8 @@ window.onscroll = () => {
   disable_menu.classList.remove('active');
 };
 
-var next = document.querySelector(".next");
-var back = document.querySelector(".back");
+var next = document.querySelector("#next");
+var back = document.querySelector("#back");
 var position = 1
 
 next.addEventListener("click", ()=> {
