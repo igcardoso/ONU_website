@@ -231,8 +231,177 @@ header .nav-bar {
   z-index: 800;
 }
 
-.slide_contention .controls span { 
-  border: 2px ;
+.controller {
+  width: 50px;
+  border-radius: 8em;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  margin: var(--default_padding);
+  opacity: 1;
+  animation: startup_button var(--transitions)ease;
+}
+
+@keyframes startup_button {
+  0% {
+    opacity: 0;
+    margin-top: -20px;
+  }
+
+  100% {
+    opacity: 1;
+    margin-top: 20px;
+  }
+}
+
+.controller.deactivated {
+  margin-top: 100px;
+  opacity: 0;
+}
+
+.controller label {
+  background: #ffffff;
+}
+
+.controller svg {
+  stroke: #ffffff;
+}
+
+.next {
+  z-index: 10;
+  overflow: hidden;
+  height: 50px;
+  transition: var(--transitions)ease;
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+}
+
+.next span:first-child {
+  margin-left: -60px;
+  margin-top: 13px;
+  transition: var(--transitions)ease;
+  opacity: 0;
+}
+
+.next label {
+  width: 0;
+  height: 2px;
+  margin-top: 21px;
+  transition: var(--transitions)ease;
+}
+
+.next.active label {
+  width: 20px;
+  height: 2px;
+  margin-top: 21px;
+  margin-right: -16px;
+  margin-left: 12px;
+}
+
+.next svg {
+  margin-left: 12px;
+  margin-bottom: -20px;
+  transition: var(--transitions)ease;
+}
+
+.next.active svg {
+  margin-left: 0;
+  margin-bottom: -20px;
+  transition: var(--transitions)ease;
+}
+
+.next.active {
+  width: 130px;
+}
+
+.next.active span:first-child {
+  margin-left: 12px;
+  opacity: 1;
+}
+
+.next.active span svg {
+  margin-left: 0px;
+}
+
+.next:hover label {
+  width: 20px;
+  height: 2px;
+  margin-top: 21px;
+  margin-right: -16px;
+  margin-left: 12px;
+  border-radius: 8em;
+}
+
+.next:hover svg {
+  margin-left: 0;
+  margin-bottom: -20px;
+  transition: var(--transitions)ease;
+}
+
+.next:hover {
+  width: 130px;
+}
+
+.next:hover span:first-child {
+  margin-left: 12px;
+  opacity: 1;
+}
+
+.next:hover span svg {
+  margin-left: 0px;
+}
+
+
+.back {
+  z-index: 10;
+  display: none;
+  overflow: hidden;
+  height: 50px;
+  transition: var(--transitions)ease;
+  flex-direction: row;
+}
+
+
+.back span:last-child {
+  margin-left: -95px;
+  margin-top: 13px;
+  transition: var(--transitions)ease;
+  opacity: 0;
+}
+
+.back label {
+  width: 0;
+  height: 2px;
+  margin-top: 21px;
+  border-radius: 8em;
+  transition: var(--transitions)ease;
+}
+
+.back.active label {
+  width: 20px;
+  height: 2px;
+  margin-top: 21px;
+  margin-left: -16px;
+  margin-right: 12px;
+}
+
+.back svg {
+  margin-left: 10px;
+  margin-bottom: -20px;
+  transition: var(--transitions)ease;
+}
+
+.back.active {
+  width: 130px;
+}
+
+.back.active span:last-child {
+  margin-left: 0px;
+  opacity: 1;
+}
+
+.back.active span svg {
+  margin-left: 0px;
 }
 
 .bg-slider-thumbs {
