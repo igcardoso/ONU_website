@@ -228,7 +228,7 @@ header .nav-bar {
   position: absolute;
   bottom: 5%;
   width: 100%;
-  z-index: 100;
+  z-index: 800;
 }
 
 
