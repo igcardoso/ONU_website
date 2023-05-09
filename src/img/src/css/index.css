@@ -27,6 +27,8 @@
   border: none;
   text-align: center;
   margin: auto;
+  width: 100%;
+  max-width: 100%;
 }
 
 .second_session .text-content .read-btn {
