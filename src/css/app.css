@@ -14,6 +14,8 @@
   --scroll-bar-color: #fff;
   --scroll-thumb-color: #282f4e;
   --scroll-thumb-hover-color: #454f6b;
+  
+  --transitions: 1s;
 }
 
 
@@ -56,8 +58,9 @@ header {
 
 header.sticky {
   height: calc(2.5rem + 1rem);
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(20px);
+  background: #000000;
+  /*background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);*/
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -101,8 +104,9 @@ header .nav-bar {
 }
 
 .side_navigation {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
+  /*background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);*/
+  background: #000000;
   text-shadow: var(--text-shadow);
   padding: 20px;
   border-top-left-radius: 10px;
@@ -148,10 +152,10 @@ header .nav-bar {
   top: 0;
   left: 0;
   inset: 0;
-  background: linear-gradient(-90deg , #0000fa00 0, #1a097e 100%);
+  background: linear-gradient(-90deg , rgba(0,0,0,0) 0, rgba(0,0,0,0.639) 100%);
   width: 100%;
   height: 100%;
-  z-index: 1;
+  z-index: 0.1;
   opacity: 1;
 }
 
@@ -163,6 +167,10 @@ header .nav-bar {
   width: 100%;
   height: 100%;
   transform: scale(1.1);
+}
+
+.card {
+  padding-bottom: calc(60px + 45px + 4em);
 }
 
 .card:nth-child(1) {
@@ -198,17 +206,19 @@ header .nav-bar {
   padding: 0;
   z-index: -1;
   min-height: 100vh;
+  scroll-behavior: smooth;
 }
 
 .slide_contention .content {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: auto;
   z-index: 1;
   display: flex;
   transition-property: transform;
   box-sizing: content-box;
   overflow: hidden;
+  scroll-behavior: smooth;
 }
 
 .slide_contention .content .card {
@@ -224,190 +234,32 @@ header .nav-bar {
   height: 100%;
 }
 
-.slide_contention .controls { 
-  position: absolute;
-  bottom: 5%;
+#controls {
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  margin-top: -2.5em;
   width: 100%;
   z-index: 800;
 }
 
-.controller {
-  width: 50px;
-  border-radius: 8em;
-  border: 2px solid #000000;
-  color: #000000;
-  margin: var(--default_padding);
-  opacity: 1;
-  animation: startup_button var(--transitions)ease;
+#controls .controller {
+  width: 100%;
+  text-align: center;
 }
 
-@keyframes startup_button {
-  0% {
-    opacity: 0;
-    margin-top: -20px;
-  }
-
-  100% {
-    opacity: 1;
-    margin-top: 20px;
-  }
+#controls .controller polyline {
+  stroke: #ffffff;
 }
 
-.controller.deactivated {
-  margin-top: 100px;
-  opacity: 0;
-}
-
-.controller label {
-  background: #000000;
-}
-
-.controller svg {
-  stroke: #000000;
-}
-
-.next {
-  z-index: 10;
-  overflow: hidden;
-  height: 50px;
-  transition: var(--transitions)ease;
-  display: flex;
-  flex-direction: row;
-  text-align: right;
-}
-
-.next span:first-child {
-  margin-left: -60px;
-  margin-top: 13px;
-  transition: var(--transitions)ease;
-  opacity: 0;
-}
-
-.next label {
-  width: 0;
-  height: 2px;
-  margin-top: 21px;
-  transition: var(--transitions)ease;
-}
-
-.next.active label {
-  width: 20px;
-  height: 2px;
-  margin-top: 21px;
-  margin-right: -16px;
-  margin-left: 12px;
-}
-
-.next svg {
-  margin-left: 12px;
-  margin-bottom: -20px;
-  transition: var(--transitions)ease;
-}
-
-.next.active svg {
-  margin-left: 0;
-  margin-bottom: -20px;
-  transition: var(--transitions)ease;
-}
-
-.next.active {
-  width: 130px;
-}
-
-.next.active span:first-child {
-  margin-left: 12px;
-  opacity: 1;
-}
-
-.next.active span svg {
-  margin-left: 0px;
-}
-
-.next:hover label {
-  width: 20px;
-  height: 2px;
-  margin-top: 21px;
-  margin-right: -16px;
-  margin-left: 12px;
-  border-radius: 8em;
-}
-
-.next:hover svg {
-  margin-left: 0;
-  margin-bottom: -20px;
-  transition: var(--transitions)ease;
-}
-
-.next:hover {
-  width: 130px;
-}
-
-.next:hover span:first-child {
-  margin-left: 12px;
-  opacity: 1;
-}
-
-.next:hover span svg {
-  margin-left: 0px;
-}
-
-
-.back {
-  z-index: 10;
-  display: none;
-  overflow: hidden;
-  height: 50px;
-  transition: var(--transitions)ease;
-  flex-direction: row;
-}
-
-
-.back span:last-child {
-  margin-left: -95px;
-  margin-top: 13px;
-  transition: var(--transitions)ease;
-  opacity: 0;
-}
-
-.back label {
-  width: 0;
-  height: 2px;
-  margin-top: 21px;
-  border-radius: 8em;
-  transition: var(--transitions)ease;
-}
-
-.back.active label {
-  width: 20px;
-  height: 2px;
-  margin-top: 21px;
-  margin-left: -16px;
-  margin-right: 12px;
-}
-
-.back svg {
-  margin-left: 10px;
-  margin-bottom: -20px;
-  transition: var(--transitions)ease;
-}
-
-.back.active {
-  width: 130px;
-}
-
-.back.active span:last-child {
-  margin-left: 0px;
-  opacity: 1;
-}
-
-.back.active span svg {
-  margin-left: 0px;
+#controls .controller line {
+  stroke: #ffffff;
 }
 
 .bg-slider-thumbs {
   z-index: 777;
   position: absolute;
-  bottom: 7em;
+  bottom: 9em;
   left: 50%;
   transform: translateX(-50%);
   transition: 0.3s ease;
@@ -436,20 +288,21 @@ header .nav-bar {
   margin: 0 5px;
   border-radius: 5px;
   transition: 1s ease;
-  border: 1px solid #00000000;
+  border: 2.3px solid #00000000;
 }
 
 .thumbs-container img.active {
-  border: 1px solid #ffffff;
+  border: 2.2px solid #ffffff;
 }
 
 .text-content {
-  position: absolute;
-  top: 25%;
+  position: sticky;
   color: var(--white-color);
   margin: 0 200px;
+  margin-top: 25%;
   transition: 0.3s ease;
   z-index: 100;
+  overflow: hidden;
 }
 
 .text-content .title {
@@ -499,8 +352,8 @@ header .nav-bar {
 .text-content .read-btn {
   border: none;
   outline: none;
-  background: var(--white-color);
-  color: var(--dark-color);
+  background: #ffffff;
+  color: #000000;
   font-size: 1em;
   font-weight: 500;
   padding: 8px 25px;
@@ -508,9 +361,16 @@ header .nav-bar {
   align-items: center;
   margin-top: 40px;
   border-radius: 10px;
-  cursor: pointer;
   transform: translateX(50px);
   opacity: 0;
+}
+
+.text-content .read-btn svg polyline {
+  stroke: #000000;
+}
+
+.text-content .read-btn svg line {
+  stroke: #000000;
 }
 
 .text-content .read-btn {
@@ -585,7 +445,9 @@ header .nav-bar {
   }
 
   .text-content {
-    margin: 0 120px 0 50px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 120px;
   }
 
   .bg-slider-thumbs {
@@ -599,16 +461,8 @@ header .nav-bar {
     padding: 25px 20px;
   }
 
-  .slide_contention .content {
-    height: 110vh;
-  }
-
   .card .video_background {
     display: none;
-  }
-
-  .text-content {
-    top: 13%;
   }
 
   .section {
@@ -624,7 +478,8 @@ header .nav-bar {
   }
 
   .text-content {
-    margin: 0 70px 0 20px;
+    margin: 25% /*13% top*/ 70px 0 20px;
+
   }
 
   .text-content .title {
