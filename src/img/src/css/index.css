@@ -20,7 +20,7 @@
 
 .second_session .text-content p {
   backdrop-filter: none;
-  background: red;
+  background: none;
   color: #000000;
   box-shadow: none;
   text-shadow: none;
