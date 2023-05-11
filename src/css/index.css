@@ -390,6 +390,7 @@
   border: none;
   text-align: center;
   margin: 0 20px 0 20px;
+  max-width: 100%;
 }
 
 .fifth_session .text-content .read-btn {
