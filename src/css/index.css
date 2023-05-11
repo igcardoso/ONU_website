@@ -531,4 +531,23 @@
     margin: 0 20px 0 20px;
     font-size: 3em;
   }
+
+  
+  .second_session .text-content p {
+    margin: 0 200px 0 200px;
+  }
+
+  .third_session .text-content p {
+    margin: 0 200px 0 200px;
+  }
+
+  .fourth_session .text-content p {
+    margin: 0 200px 0 200px;
+  }
+
+  .fifth_session .text-content p {
+    margin: 0 200px 0 200px;
+  }
+
+
 }
