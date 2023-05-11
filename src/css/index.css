@@ -26,7 +26,7 @@
   text-shadow: none;
   border: none;
   text-align: center;
-  margin: 0 20px 0 20px;
+  margin: 0 200px 0 200px;
   max-width: 100%;
 }
 
@@ -217,7 +217,7 @@
   text-shadow: none;
   border: none;
   text-align: center;
-  margin: 0 20px 0 20px;
+  margin: 0 200px 0 200px;
   max-width: 100%;
 }
 
@@ -286,7 +286,7 @@
   text-shadow: none;
   border: none;
   text-align: center;
-  margin: 0 20px 0 20px;
+  margin: 0 200px 0 200px;
   max-width: 100%;
 }
 
@@ -389,7 +389,7 @@
   text-shadow: none;
   border: none;
   text-align: center;
-  margin: 0 20px 0 20px;
+  margin: 0 200px 0 200px;
   max-width: 100%;
 }
 
@@ -531,22 +531,21 @@
     margin: 0 20px 0 20px;
     font-size: 3em;
   }
-
   
   .second_session .text-content p {
-    margin: 0 200px 0 200px;
+    margin: 0 20px 0 20px;
   }
 
   .third_session .text-content p {
-    margin: 0 200px 0 200px;
+    margin: 0 20px 0 20px;
   }
 
   .fourth_session .text-content p {
-    margin: 0 200px 0 200px;
+    margin: 0 20px 0 20px;
   }
 
   .fifth_session .text-content p {
-    margin: 0 200px 0 200px;
+    margin: 0 20px 0 20px;
   }
 
 
