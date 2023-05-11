@@ -123,6 +123,10 @@ section {
   overflow: hidden;
 }
 
+.gallery__item .preview {
+  margin: 0;
+}
+
 .gallery__item .top {
   display: flex;
   flex-direction: row;
