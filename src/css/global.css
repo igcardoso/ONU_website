@@ -123,10 +123,6 @@ section {
   overflow: hidden;
 }
 
-.gallery__item .preview {
-  margin: 0;
-}
-
 .gallery__item .top {
   display: flex;
   flex-direction: row;
@@ -174,7 +170,7 @@ section {
 } 
 
 .gallery__item .preview {
-  margin-top: 0;
+  margin: 0;
   padding: 0;
   text-align: justify;
 } 
