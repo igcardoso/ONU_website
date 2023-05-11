@@ -26,8 +26,11 @@
   text-shadow: none;
   border: none;
   text-align: center;
-  margin: 0 200px 0 200px;
   max-width: 100%;
+}
+
+.second_session .text {
+  margin: 0 200px 0 200px;
 }
 
 .second_session .text-content .read-btn {
@@ -217,9 +220,13 @@
   text-shadow: none;
   border: none;
   text-align: center;
-  margin: 0 200px 0 200px;
   max-width: 100%;
 }
+
+.third_session .text {
+  margin: 0 200px 0 200px;
+}
+
 
 .third_session .text-content .read-btn {
   background: #ffffff;
@@ -286,9 +293,13 @@
   text-shadow: none;
   border: none;
   text-align: center;
-  margin: 0 200px 0 200px;
   max-width: 100%;
+}]
+
+.fourth_session .text {
+  margin: 0 200px 0 200px;
 }
+
 
 .fourth_session .text-content .read-btn {
   background: #000000;
@@ -389,9 +400,13 @@
   text-shadow: none;
   border: none;
   text-align: center;
-  margin: 0 200px 0 200px;
   max-width: 100%;
 }
+
+.fifth_session .text {
+  margin: 0 200px 0 200px;
+}
+
 
 .fifth_session .text-content .read-btn {
   background: #ffffff;
