@@ -100,6 +100,12 @@
   color: #000000;
 }
 
+.second_session .prints .projection .index  .statistic {
+  background: #eeeeee;
+  padding: 10px;
+  border-radius: 10px;
+}
+
 .second_session .prints .text-content .second_title {
   color: #000000;
   text-align: center;
