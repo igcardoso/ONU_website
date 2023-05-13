@@ -293,9 +293,8 @@ section {
   background: #eeeeee;
   border-radius: 0;
   overflow: hidden;
-  padding-top: 60px;
   padding: 0 200px;
-  padding-top: 25%;
+  padding-top: 120px;
 }
 
 .large_gallery__item img {
