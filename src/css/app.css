@@ -476,7 +476,8 @@ header .nav-bar {
   }
   
   .large_gallery__item {
-    padding: 25% /*13% top*/ 70px 0 20px;
+    text-align: center;
+    padding: 25% /*13% top*/ 20px 0 20px;
   }
   
   .large_gallery__item img {
