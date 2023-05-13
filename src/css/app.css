@@ -344,8 +344,8 @@ header .nav-bar {
 .text-content .read-btn {
   border: none;
   outline: none;
-  background: #ffffff;
-  color: #000000;
+  background: #590C14;
+  color: #ffffff;
   font-size: 1em;
   font-weight: 500;
   padding: 10px 25px;
@@ -359,11 +359,11 @@ header .nav-bar {
 }
 
 .text-content .read-btn svg polyline {
-  stroke: #000000;
+  stroke: #ffffff;
 }
 
 .text-content .read-btn svg line {
-  stroke: #000000;
+  stroke: #ffffff;
 }
 
 .text-content .read-btn {
@@ -513,16 +513,16 @@ header .nav-bar {
     margin: 25% /*13% top*/ 70px 0 20px;
 
   }
-  
+
   .large_gallery__item {
     text-align: center;
     padding: 25% /*13% top*/ 20px 0 20px;
   }
- 
+
   .large_gallery__item .read-btn {
     margin: 60px auto;
   }
-  
+
   .large_gallery__item img {
     visibility: hidden;
   }
@@ -549,7 +549,7 @@ header .nav-bar {
 
   .large_gallery__item p {
     width: 100%;
-    text-align: center; 
+    text-align: center;
     font-size: .9em;
     margin: auto;
     padding: 0;
