@@ -220,18 +220,18 @@ function current_position() {
   /*========= second slide =========*/
 
   document.addEventListener('DOMContentLoaded', function() {
-    var stream = document.querySelector('.gallery__stream.s3');
-    var items = document.querySelectorAll('.gallery__item.s3');
+    var stream = document.querySelector('.large_gallery__stream.s3 ');
+    var items = document.querySelectorAll('.large_gallery__item.s3');
 
-    var prev = document.querySelector('.gallery__prev.s3');
+    var prev = document.querySelector('.large_gallery__prev.s3');
     prev.addEventListener('click', function() {
       stream.insertBefore(items[items.length - 1], items[0]);
-      items = document.querySelectorAll('.gallery__item.s3');
+      items = document.querySelectorAll('.large_gallery__item.s3');
     });
 
-    var next = document.querySelector('.gallery__next.s3');
+    var next = document.querySelector('.large_gallery__next.s3');
     next.addEventListener('click', function() {
       stream.appendChild(items[0]);
-      items = document.querySelectorAll('.gallery__item.s3');
+      items = document.querySelectorAll('.large_gallery__item.s3');
     });
   });
