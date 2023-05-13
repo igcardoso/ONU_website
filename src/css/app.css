@@ -422,6 +422,45 @@ header .nav-bar {
   margin: 25px 0;
 }
 
+.contact {
+  padding: 50px 11% 40px;
+  background: #000000;
+  text-align: left;
+  border-top: 1px solid #3838387c;
+}
+
+.main-contact {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  gap: 2rem;
+  align-items: center;
+}
+
+.contact-content h5 {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+  /*background: linear-gradient(20deg, #401fffc4, #008bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+}
+
+.contact-content li {
+  margin-bottom: 12px;
+  list-style-type: none;
+  display: block;
+  font-size: 15px;
+  color: #ffffffac;
+  font-weight: 400;
+  transition: all .45s ease;
+  text-decoration: none;
+}
+
+.contact-content li:hover {
+  color: var(--text-color);
+  transform: translateX(5px);
+}
+
 /*======= Media queries (max-width: 1100px) =======*/
 @media screen and (max-width: 1100px) {
   header .nav-bar {
