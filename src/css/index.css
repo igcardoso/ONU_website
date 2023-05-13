@@ -21,7 +21,7 @@
 .second_session .text-content p {
   backdrop-filter: none;
   background: none;
-  color: #000000;
+  color: #000000a9;
   box-shadow: none;
   text-shadow: none;
   border: none;
@@ -38,6 +38,11 @@
   color: #ffffff;
   margin: 0 auto;
   text-align: center;
+  transition: 1s ease;
+}
+
+.second_session .text-content .read-btn:hover {
+  background: #000000d3;
 }
 
 .second_session .text-content .read-btn svg polyline {
@@ -80,11 +85,11 @@
 }
 
 .second_session .prints .text-content .second_title {
-  color: #000000;
+  color: #000000a9;
   text-align: center;
   margin: 20px;
-  font-size: 1.4em;
-  font-weight: 800;
+  font-size: 2em;
+  font-weight: 500;
 }
 .second_session .prominence.text-content .second_title {
   color: #000000;
@@ -123,7 +128,7 @@
   inset: 0;
   height: 100%;
   border-radius: 8em;
-  background: linear-gradient(-25deg, rgb(0,11,178), rgb(0,145,178));
+  background: #000000;
   z-index: 1;
 }
 
@@ -207,12 +212,16 @@
   margin: 0 200px 0 200px;
 }
 
-
 .third_session .text-content .read-btn {
   background: #ffffff;
   color: #000000;
   margin: 0 auto;
   text-align: center;
+  transition: 1s ease;
+}
+
+.third_session .text-content .read-btn:hover {
+  background: #ffffffd3;
 }
 
 .third_session .text-content .read-btn svg polyline {
@@ -268,7 +277,7 @@
 .fourth_session .text-content p {
   backdrop-filter: none;
   background: none;
-  color: #000000;
+  color: #000000a9;
   box-shadow: none;
   text-shadow: none;
   border: none;
@@ -280,12 +289,16 @@
   margin: 0 200px 0 200px;
 }
 
-
 .fourth_session .text-content .read-btn {
   background: #000000;
   color: #ffffff;
   margin: 0 auto;
   text-align: center;
+  transition: 1s ease;
+}
+
+.fourth_session .text-content .read-btn:hover {
+  background: #000000d3;
 }
 
 .fourth_session .text-content .read-btn svg polyline {
@@ -387,12 +400,16 @@
   margin: 0 200px 0 200px;
 }
 
-
 .fifth_session .text-content .read-btn {
   background: #ffffff;
   color: #000000;
   margin: 0 auto;
   text-align: center;
+  transition: 1s ease;
+}
+
+.fifth_session .text-content .read-btn:hover {
+  background: #ffffffd3;
 }
 
 .fifth_session .text-content .read-btn svg polyline {
@@ -412,18 +429,23 @@
 } 
 
 .fifth_session .gallery__prev svg polyline {
-  stroke: #ffffff;
+  stroke: #ffffffa9;
 }
 
 .fifth_session .gallery__next svg polyline {
-  stroke: #ffffff;
+  stroke: #ffffffa9;
 }
 
 .fifth_session .gallery__prev svg line {
-  stroke: #ffffff;
+  stroke: #ffffffa9;
 }
 .fifth_session .gallery__next svg line {
-  stroke: #ffffff;
+  stroke: #ffffffa9;
+}
+
+.fifth_session .gallery__prev:hover,
+.fifth_session .gallery__next .content:hover {
+  background: #3838387c;
 }
 
 .fifth_session .prints .evaluations {
@@ -460,7 +482,8 @@
   inset: 0;
   height: 10px;
   border-radius: 8em;
-  background: linear-gradient(-25deg, rgb(0,11,178), rgb(0,145,178));
+  background: #ffffff;
+  /*background: linear-gradient(-25deg, rgb(0,11,178), rgb(0,145,178));*/
 }
 
 .fifth_session .prints .evaluations .index  .five-stars .bar:after {
