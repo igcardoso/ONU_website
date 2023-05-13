@@ -152,7 +152,7 @@ header .nav-bar {
   top: 0;
   left: 0;
   inset: 0;
-  background: linear-gradient(-90deg , rgba(0,0,0,0) 0, #000000 100%);
+  background: linear-gradient(-90deg , #00000056 0, #00000096 100%);
   width: 100%;
   height: 100%;
   z-index: 0.1;
@@ -174,7 +174,7 @@ header .nav-bar {
 }
 
 .card:nth-child(1) {
-  background-image: url('../img/bg1.jpg');
+  background-image: url('https://source.unsplash.com/random/500x400/?person,perfil,social-photo');
   background-position: center;
   background-size: cover;
 }
@@ -236,7 +236,6 @@ header .nav-bar {
 #controls {
   display: flex;
   flex-direction: row;
-  position: sticky;
   margin-top: -2.5em;
   width: 100%;
   z-index: 800;
@@ -254,7 +253,7 @@ header .nav-bar {
 #controls .controller line {
   stroke: #ffffff;
 }
-
+/*
 .bg-slider-thumbs {
   z-index: 777;
   position: absolute;
@@ -293,7 +292,7 @@ header .nav-bar {
 .thumbs-container img.active {
   border: 2.2px solid #ffffff;
 }
-
+*/
 .text-content {
   position: sticky;
   color: var(--white-color);
@@ -349,7 +348,7 @@ header .nav-bar {
   color: #000000;
   font-size: 1em;
   font-weight: 500;
-  padding: 8px 25px;
+  padding: 10px 25px;
   display: flex;
   align-items: center;
   margin-top: 40px;
@@ -622,7 +621,7 @@ header .nav-bar {
 
   .text-content .read-btn {
     font-size: 0.9em;
-    padding: 5px 15px;
+    padding: 10px 25px;
   }
 
   /*======= About section =======*/
