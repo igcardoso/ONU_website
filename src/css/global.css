@@ -323,7 +323,7 @@ section {
 }
 
 .large_gallery__item p {
-  max-width: 700px;
+  max-width: 500px;
   text-shadow: var(--text-shadow);
   padding: 20px 0;
 }
