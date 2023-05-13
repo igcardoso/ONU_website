@@ -219,22 +219,38 @@ section {
   display: flex;
   flex-direction: row;
   transform: translateY(-40px);
+  margin: auto;
+  align-items: center;
+  align-content: center;
 }
 
 .gallery__prev,
 .gallery__next {
-  width: 100%;
+  width: 100px;
   text-align: center;
+  margin: auto;
 }
 
 .gallery__prev,
 .gallery__next svg polyline {
-  stroke: #000000;
+  stroke: #000000a9;
+}
+
+.gallery__prev,
+.gallery__next .content {
+  padding: 5px;
+  border-radius: 5px;
+  transition: 1s ease;
+}
+
+.gallery__prev:hover,
+.gallery__next .content:hover {
+  background: #eeeeee;
 }
 
 .gallery__prev,
 .gallery__next svg line {
-  stroke: #000000;
+  stroke: #000000a9;
 }
 
 .gallery__prev {
@@ -295,6 +311,7 @@ section {
   overflow: hidden;
   padding: 0 200px;
   padding-top: 120px;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .large_gallery__item img {
@@ -326,6 +343,7 @@ section {
   max-width: 350px;
   text-shadow: var(--text-shadow);
   padding: 20px 0;
+  color: #000000a9;
 }
 
 .large_gallery__item .read-btn {
@@ -407,18 +425,31 @@ section {
 
 .large_gallery__prev,
 .large_gallery__next {
-  width: 100%;
+  width: 100px;
   text-align: center;
+  margin: auto;
 }
 
 .large_gallery__prev,
 .large_gallery__next svg polyline {
-  stroke: #000000;
+  stroke: #000000a9;
 }
 
 .large_gallery__prev,
 .large_gallery__next svg line {
-  stroke: #000000;
+  stroke: #000000a9;
+}
+
+.large_gallery__prev:hover,
+.large_gallery__next .content:hover {
+  background: #eeeeee;
+}
+
+.large_gallery__prev,
+.large_gallery__next .content {
+  padding: 5px;
+  border-radius: 5px;
+  transition: 1s ease;
 }
 
 .large_gallery__prev {
