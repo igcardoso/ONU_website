@@ -356,6 +356,7 @@ header .nav-bar {
   border-radius: 10px;
   transform: translateX(50px);
   opacity: 0;
+  transition: 1s ease;
 }
 
 .text-content .read-btn svg polyline {
