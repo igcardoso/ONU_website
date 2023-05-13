@@ -10,8 +10,8 @@ function animate_elements() {
     } else if (bounding.top < 0) {
       animated_element.classList.add("is-up");
     } else {
-      animated_element.classList.remove("is-up");
-      animated_element.classList.remove("is-down");
+      animated_element.classList.add("is-up");
+      animated_element.classList.add("is-down");
     }
   });
 }
