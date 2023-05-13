@@ -122,7 +122,7 @@ window.onscroll = () => {
   navigation.classList.remove('active');
   disable_menu.classList.remove('active');
 };
-
+/*
 var next = document.querySelector("#next");
 var back = document.querySelector("#back");
 var position = 1
@@ -177,7 +177,7 @@ function current_position() {
       position = 1;
     }
   }
-
+*/
   /*========= first slide =========*/
 
   document.addEventListener('DOMContentLoaded', function() {
